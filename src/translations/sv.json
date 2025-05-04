@@ -1,34 +1,64 @@
 {
   "status": {
-    "cleaning": "Städar",
+    "mowing": "Klipper gräs",
+    "auto": "Automatisk gräsklippning",
+    "spot": "Områdesklippning",
+    "edge": "Kant",
+    "edgecut": "Kantklippning",
+    "single_room": "Områdesklippning",
     "paused": "Pausad",
     "idle": "Inaktiv",
-    "charging": "Laddar",
-    "returning home": "Återvänder hem"
+    "stop": "Stoppad",
+    "charging": "Charging",
+    "returning": "Återvänder",
+    "returning_home": "Återvänder till dockningsstationen",
+    "docked": "Dockad",
+    "unknown": "Okänd",
+    "offline": "Offline",
+    "error": "Fel",
+    "charger_disconnected": "Laddare frånkopplad",
+    "remote_control_active": "Fjärrstyrning aktiverad",
+    "manual_mode": "Manuellt läge",
+    "shutting_down": "Stänger av",
+    "updating": "Uppdaterar",
+    "going_to_target": "Går till målposition",
+    "zoned_cleaning": "Zonklippning",
+    "segment_cleaning": "Segmentklippning"
   },
   "source": {
     "gentle": "Extra försiktig",
     "silent": "Eco - tyst",
     "standard": "Standard",
     "medium": "Medium",
-    "turbo": "Turbo"
+    "turbo": "Turbo",
+    "normal": "Normal",
+    "max": "Max",
+    "max_plus": "Max+",
+    "high": "Hög",
+    "strong": "Stark",
+    "quiet": "Tyst",
+    "auto": "Auto",
+    "balanced": "Balanserad",
+    "custom": "Anpassad",
+    "off": "Av"
   },
   "common": {
-    "name": "Dammsugarkort",
-    "description": "Dammsugarkort låter dig att kontrollera din robotdammsugare.",
-    "start": "Städa",
+    "name": "Gräsklipparkort",
+    "description": "Gräsklipparkort låter dig att kontrollera din robotgräsklippare.",
+    "start": "Klipp gräset",
     "continue": "Fortsätt",
     "pause": "Paus",
     "stop": "Stopp",
     "return_to_base": "Docka",
-    "locate": "Lokalisera dammsugare",
-    "not_available": "Dammsugare är inte tillgänglig"
+    "locate": "Lokalisera gräsklippare",
+    "not_available": "Gräsklippare är inte tillgänglig"
   },
   "error": {
-    "missing_entity": "Specificera entitet är obligatoriskt!"
+    "invalid_config": "Ogiltig konfiguration",
+    "missing_entity": "Entitet måste anges!"
   },
   "warning": {
-    "actions_array": ""
+    "actions_array": "VARNING: 'actions' är reserverat för att åsidosätta standardårgärder för befintliga knappar. Om din avsikt var att lägga till ytterligare åtgärder, använd alternativet 'shortcuts' istället."
   },
   "editor": {
     "entity": "Entitet (Obligatoriskt)",
@@ -46,6 +76,9 @@
     "show_toolbar": "Visa verktygsvält",
     "show_toolbar_aria_label_on": "Aktivera verktygsfält",
     "show_toolbar_aria_label_off": "Inaktivera verktygsfält",
+    "show_shortcuts": "Visa genvägar",
+    "show_shortcuts_aria_label_on": "Aktivera genvägar",
+    "show_shortcuts_aria_label_off": "Inaktivera genvägar",
     "code_only_note": "Obs! Inställningar för händelser och statistikalternativ är enbart tillgängliga med kodredigeraren."
   }
 }
